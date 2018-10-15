@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NAudio.SharpMediaFoundation</id>
+    <version>0.1.0</version>
+    <authors>Mark Heath</authors>
+    <owners>Mark Heath</owners>
+    <licenseUrl>https://github.com/naudio/NAudio/blob/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/lethek/NAudio.SharpMediaFoundation</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Alternative MediaFoundation support for NAudio using SharpDX for interop</description>
+    <tags>C# .NET audio sound MediaFoundation SharpDX</tags>
+    <dependencies>
+        <dependency id="NAudio" version="1.8.4" />
+        <dependency id="SharpDX.MediaFoundation" version="4.2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="NAudio.SharpMediaFoundation\bin\Release\NAudio.SharpMediaFoundation.dll" target="lib\net40" /> 
+    <file src="README.md" />
+  </files>
+</package>
